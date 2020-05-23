@@ -1,0 +1,7 @@
+.student-list {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 40px;
+  padding: 20px;
+  margin-top: 20px;
+}

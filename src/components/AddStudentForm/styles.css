@@ -1,0 +1,72 @@
+.add-student-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 30vw;
+  border-radius: 10px;
+  background-color: #fff3fe;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.35);
+}
+
+.form-header {
+  background-color: #0c0922;
+  color: rgba(255, 255, 255, 0.8);
+  align-content: center;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.form-header h2 {
+  text-align: center;
+  padding: 10px;
+}
+
+.form-container {
+  padding: 40px;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #222961;
+}
+
+.form-container input {
+  height: 24px;
+  font-size: 14px;
+  background-color: transparent;
+  border: none;
+  border-bottom: solid 2px #222961;
+}
+
+.form-container button {
+  margin-top: 20px;
+  height: 40px;
+  background: linear-gradient(90deg, #1d2671 3.93%, #c33764 100%);
+  border: none;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.form-container button:hover {
+  background: linear-gradient(90deg, #1d2671 3.93%, #c33764 80%);
+}
+
+.form-container button:active {
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.35);
+  transform-origin: -1px -1px;
+  background: linear-gradient(90deg, #1d2671 3.93%, #c33764 90%);
+  transform: translateY(1px);
+  transition: all 0.1s ease 0s;
+}

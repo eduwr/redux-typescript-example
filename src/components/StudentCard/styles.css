@@ -1,0 +1,67 @@
+.student-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff3fe;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.35);
+  width: 180px;
+  border-radius: 10px;
+}
+
+.profile-picture {
+  width: 120px;
+}
+
+.student-name {
+  font-weight: bold;
+  font-size: 1.2rem;
+  background: linear-gradient(to right, #1d2671, #c33764);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.student-name:hover {
+  text-decoration: underline;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-self: baseline;
+  margin-top: 10px;
+}
+
+.info-container span {
+  font-size: 0.9rem;
+  background: linear-gradient(to right, #4c5284, rgba(76, 82, 132, 0.7));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 5px;
+}
+
+.btn-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row-reverse;
+}
+
+.btn-container button {
+  border: none;
+  background-color: transparent;
+  align-self: left;
+}
+
+.btn-container button .delete-icon {
+  font-size: 32px;
+  color: #ff5100;
+}
+
+.btn-container button .delete-icon:hover {
+  color: #ff3c00;
+  transition: all 1s ease 0.1s;
+}

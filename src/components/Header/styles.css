@@ -1,0 +1,79 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  max-width: 1440px;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #1d2671 3.93%, #c33764 100%);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.35);
+  border: none;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.btn-text {
+  color: white;
+}
+
+.header-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40%;
+}
+.btn-wrapper {
+  height: 40px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #1d2671 3.93%, #c33764 100%);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.35);
+  border: none;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.btn-wrapper button {
+  background-color: transparent;
+
+  border: none;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.btn-wrapper .btn-right {
+  border-left: solid 1px rgba(255, 255, 255, 0.3);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-right: 20px;
+}
+
+.btn-wrapper .btn-center {
+  border-left: solid 1px rgba(255, 255, 255, 0.3);
+  padding: 0 10px;
+}
+
+.btn-wrapper .btn-left {
+  border-left: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding-left: 20px;
+}
+
+.btn-wrapper button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-wrapper button:active {
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: all 0.4s ease 0s;
+}
